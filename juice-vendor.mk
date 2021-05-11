@@ -305,7 +305,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     PowerOffAlarm \
-    PerformanceMode \
     QtiTelephonyService \
     WigigTetheringRRO \
     atfwd \
