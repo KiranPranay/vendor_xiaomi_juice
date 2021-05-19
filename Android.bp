@@ -28,39 +28,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WigigTetheringRRO",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/WigigTetheringRRO/WigigTetheringRRO.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "atfwd",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/atfwd/atfwd.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "com.qualcomm.qti.services.secureui",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "datastatusnotification",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
@@ -75,83 +42,6 @@ android_app_import {
 	name: "embms",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/embms/embms.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "remoteSimLockAuthentication",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/remoteSimLockAuthentication/remoteSimLockAuthentication.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "remotesimlockservice",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/remotesimlockservice/remotesimlockservice.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "uimgbaservice",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/uimgbaservice/uimgbaservice.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "uimlpaservice",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/uimlpaservice/uimlpaservice.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "uimremoteclient",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/uimremoteclient/uimremoteclient.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "uimremoteserver",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/uimremoteserver/uimremoteserver.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "xdivert",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/xdivert/xdivert.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
