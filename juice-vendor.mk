@@ -306,7 +306,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     PowerOffAlarm \
     QtiTelephonyService \
-    datastatusnotification \
     embms \
     WfdService \
     dpmserviceapp \
